@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+            <h1>Office Quotes</h1>
     <header>
-
+<img src="js/p185008_b_h9_ac.jpg" alt="">
     </header>
     <main>
         <div id="container">
@@ -18,8 +19,12 @@
         </div>
     </main>
     <footer>
-
+			&copy; <span id="copyrightyear"></span> Office Quotes</p>
     </footer>
 </body>
 </html>
+<script>
+	const d = new Date();
+	document.getElementById('copyrightyear').innerHTML = d.getFullYear();
+</script>
 <script src="js/script.js"></script>
